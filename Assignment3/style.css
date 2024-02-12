@@ -1,0 +1,47 @@
+h1 {
+    color:blueviolet;
+    background-color:black;
+
+}
+
+h2{
+    color: #0000FF;
+    background-color:black;
+}
+
+h3{
+    color:green;
+    background-color:black;
+}
+
+h4 {
+    color: greenyellow;
+    background-color:black;
+}
+
+p {
+    color:gold;
+    background-color:black;
+}
+
+a{
+    color:red;
+
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:visited {
+    color:green;
+}
+
+#div1 {
+    color:aqua;
+    background-color:black;
+}
+
+#span1 {
+    color:palevioletred;
+}
