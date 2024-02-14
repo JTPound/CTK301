@@ -1,0 +1,52 @@
+h1{
+    color:white;
+}
+
+#div1{
+    background-color:lightblue;
+}
+
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:red;
+}
+
+h2{
+    color:blue;
+}
+
+h3{
+    background-color:yellow;
+}
+
+p1{
+    color:red;
+}
+
+h4{
+    color:yellow;
+    background-color:green;
+}
+
+p2{
+    background-color:lightgreen;
+}
+
+#div2{
+    background-color:yellow;
+}
+h5{
+    color:red;
+}
+
+#div3{
+    color:orange;
+    
+}
