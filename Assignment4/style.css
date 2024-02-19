@@ -1,0 +1,74 @@
+h1 {
+    color:orange;
+    background-color:black;
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+h2{
+    color:orange;
+    background-color:black;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    color:orange;
+    background-color:black;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    color: orange;
+    background-color:black;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    color:gold;
+    background-color:black;
+}
+
+a{
+    color:red;
+
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:visited {
+    color:green;
+}
+
+#div1 {
+    color:aqua;
+    background-color:black;
+}
+
+#span1 {
+    color:palevioletred;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(mlg.gif);
+}
+
+.box1{
+    border: 10px solid black;
+    padding: 2px;
+    background-color: yellow;
+} 
+
+.div3{
+    text-align: justify;
+}
+
+.div4{
+    text-align:center;
+}
