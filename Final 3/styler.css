@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    padding: 24px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  h1 {
+    grid-column: span 12;
+    background-color: #7b0488e2;
+    font-family: "Exo 2", normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    padding: 24px;
+    margin-top: 0;
+    margin-right:auto;
+    margin-left:auto;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  #mainimg {
+    grid-column: span 12;
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    width:  200px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  nav {
+    grid-column: span 12; 
+     margin-left: auto;
+     margin-right:auto;
+     font-family: 'Exo_2', normal;
+    }
+  
+  nav ul {
+   margin:0;
+    padding: 0;
+    list-style: none;
+  overflow: hidden;
+  }
+  
+  nav li {
+    background-color: #7b0488e2;
+margin: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 200px;
+    float:left;
+    text-align:center;
+    align-content:center;
+    border-radius: 5px;
+    font-family: 'Exo 2', normal;
+  }
+  
+  nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  nav li:hover {
+    background-color: #034693;
+  }
+  
+  main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    color:white;
+    font-family: 'Exo 2', normal;
+  }
+  
+  section img {
+    width: 100%;
+  }
+  
+  section h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 36px;
+  }
+  
+  footer {
+    grid-column: span 12;
+    background-color: #7b0488e2;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 24px;
+    font-family: 'Exo 2', normal;
+    border-radius: 10px;
+  }
+
+  footer a {
+    color:orange;
+  }
+
+  p {
+    color:white;
+    font-family: 'Exo 2', normal;
+  }
+
+
+
+  .right {
+    margin-top: 105px;
+
+  }
+
+  #myCarousel {
+    margin:0;
+    grid-column: 12;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height:580px;
+    width:800px;
+    object-fit:contain;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 0;
+    background: black;
+  }
+  
+  img {
+    width:  600px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .main2 {
+    grid-column: span 12;
+    
+  }
+
+.main3{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 24px;
+  color:white;
+  font-family: 'Exo 2', normal;
+  margin-top: 20px;
+}
+
+.main3 img {
+  width: 600px;
+  height:600px;
+}
+
+.round {
+  background-color:#7b0488e2;
+  border-radius: 5px;
+}

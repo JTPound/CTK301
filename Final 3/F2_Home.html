@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jack's Site</title>
+	<link href="styler.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+/>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Jack Poundstone</h1>
+		<nav>
+			<ul>
+				<li><a href="F2_Home.html">Home</a></li>
+				<li><a href="F2_Audio.html">Audio</a></li>
+				<li><a href="F2_About.html">About Me</a></li>
+			</ul>
+		</nav>
+        
+		<main>
+			<section>
+				<div class = "round">
+				<h2>Home</h2>
+				</div>
+				
+				<img src="Urban_Legends.png" alt="Game with my most recent audio work">
+				<p>This is a my most recently developed game that I worked on in a group. It contains my most recent music and sound desgin work</p>
+			</section>
+			<section>
+				<div class = "right">
+				<img src="Unity_Game.png" alt="Video Game I created">
+				<p>This is a recent game that I have created in Unity alone. It is a 2D Space Invaders like game which utilizes sprites, as well as functional game UI with lives and point scoring systems.</p>
+				</div>
+			</section>
+			<iframe width="600" height="400"
+					src="https://www.youtube.com/embed/kAlfETluj9Y?si=-WB-Gg7U48ueaaCl">
+				</iframe>
+			<p> This is a video highlighting some of my works. </p>
+
+
+
+			
+		</main>
+		<div class = "main2">
+			<div class="f-carousel" id="myCarousel">
+			  <div class="f-carousel__slide"><img src="Halo_Project.jpg" alt = "MIDI keyboard demonstration"></div>
+			  <div class="f-carousel__slide"><img src="Urban_Legends.png" alt = "Game with my most recent audio work"></div>
+			  <div class="f-carousel__slide"><img src="Industrial_Zone.png" alt = "Reaper set up of a recent song, Industrial Zone"></div>
+			  <div class="f-carousel__slide"><img src="Unity_Game.png" alt = "Video Game I created alone"></div>
+			</div>
+			</div>
+		<script>Fancybox.bind("[data-fancybox]", {
+			// Your custom options
+		  });
+		  
+		  const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		
+		new Carousel(container, options);
+		
+		const container2 = document.getElementById("secondCarousel");
+			const options2 = { infinite: true };
+			new Carousel(container2, options2);
+		  </script>
+
+<div class = "main3">
+	<section>
+		<img src="Halo_Project.jpg" alt="MIDI keyboard demonstration">
+		<p>This is my most Recent Audio Project. I utilized MIDI keyboard sounds using Pro Tools to replace the music component of a famous Halo 2 scene.</p>
+		</section>
+		<section>
+			<img src="Industrial_Zone.png" alt="Reaper set up of a recent song, Industrial Zone">
+			<p>This is a screenshot of how my recent song, Industrial Zone, looks in Reaper.</p>
+			</section>
+		</div>
+		<footer>
+			<p>Social Media
+				<a href="https://www.instagram.com/jack_poundstone/" target="_blank" class="bi bi-instagram"></a>
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
